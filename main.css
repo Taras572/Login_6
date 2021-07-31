@@ -1,0 +1,157 @@
+body{
+    background-color: rgb(228, 228, 228);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.block{
+    width: 400px;
+    margin: 0 auto;
+}
+.block2{
+    width: 400px;
+    margin: 0 auto;
+    display: none;
+}
+.block3{
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    margin: 0 auto;
+    text-align: center;
+    display: none;
+}
+input{
+    width: 400px;
+    height: 50px;
+    margin: 20px;
+    border: 1px solid black;
+    font-size: 20px;
+}
+p{
+    font-size: 40px;
+    margin: 0;
+}
+#btn_2 , #btn_3{
+    width: 400px;
+    color: white;
+    background-color: rgb(78, 236, 86);
+    font-size: 20px;
+    border: none;
+    transition: 0.2s;
+}
+#btn{
+    width: 400px;
+    color: white;
+    background-color: rgb(2, 175, 175);
+    font-size: 20px;
+    border: none;
+    transition: 0.2s;
+}
+.in1_d,.in2_d,.in3_d,.in5_d{
+    background-color: rgb(206, 75, 75);
+    width: 240px;
+    color: white;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 5px;
+    position: absolute;
+    left: 0;
+    top: 125px;
+    display: none;
+}
+.in2_d{
+    top: 220px;   
+}
+.in3_d{
+    top: 315px;
+}
+.in5_d{
+    top: 409px;
+}
+
+.no_1,.no_2,.no_3,.no_5{
+    color: rgb(206, 75, 75);
+    position: absolute;
+    right: 10px;
+    top: 85px;
+    display: none;
+    font-size: 20px;
+}
+.yes_1,.yes_2,.yes_3,.yes_5{
+    color: rgb(68, 233, 53);
+    position: absolute;
+    right: 10px;
+    top: 85px;
+    display: none;
+    font-size: 20px;
+}
+
+.no_2{
+    top: 177px;
+}
+.yes_2{
+    top: 177px;
+}
+.no_3{
+    top: 270px;
+}
+.yes_3{
+    top: 270px;
+}
+.no_5{
+    top: 365px;
+}
+.yes_5{
+    top: 365px;
+}
+.Sing_in_now,.Sing_up_now{
+    font-size: 16px;
+    color: rgb(50, 159, 202);
+}
+.Sing_in_now:hover{
+    text-decoration: underline;
+    cursor:default;
+}
+.Sing_up_now:hover{
+    text-decoration: underline;
+    cursor:default;
+}
+
+.in7_d{
+    background-color: rgb(206, 75, 75);
+    width: 240px;
+    color: white;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 5px;
+    position: absolute;
+    left: 0;
+    top: 220px;
+    display: none;
+}
+img{
+    width: 150px;
+    margin: 20px 125px;
+    
+}
+h1{
+    height: 40px;
+    margin: 0;
+}
+.profession,.email_info{
+    height: 30px;
+    font-size: 25px;
+    color: rgb(190, 190, 190);
+}
+.profession{
+    margin-bottom: 50px;
+}
+
+
+
